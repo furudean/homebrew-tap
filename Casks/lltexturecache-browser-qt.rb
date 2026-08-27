@@ -9,7 +9,7 @@ cask "lltexturecache-browser-qt" do
   homepage "https://github.com/furudean/lltexturecache-viewer-gui"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "lltexturecache-browser-qt.app"
 
