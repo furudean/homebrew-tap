@@ -3,12 +3,13 @@ cask "lltexturecache-browser-qt" do
 
   sha256 "64d74514991e1f6afe7c2545db51a0123d1accd29df6fd81160c5bb31695f475"
 
-  url "https://github.com/furudean/lltexturecache-browser-qt/releases/download/v#{version}/lltexturecache-browser-qt-#{version}-macos-arm64.zip"
+  url "https://github.com/furudean/lltexturecache-viewer-gui/releases/download/v#{version}/lltexturecache-browser-qt-#{version}-macos-arm64.zip"
   name "lltexturecache-browser-qt"
   desc "Browse and export textures from the Second Life texture cache"
-  homepage "https://github.com/furudean/lltexturecache-browser-qt"
+  homepage "https://github.com/furudean/lltexturecache-viewer-gui"
 
   depends_on arch: :arm64
+  depends_on macos: ">= :big_sur"
 
   app "lltexturecache-browser-qt.app"
 
