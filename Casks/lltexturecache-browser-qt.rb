@@ -1,7 +1,7 @@
 cask "lltexturecache-browser-qt" do
-  version "0.4.0"
+  version "0.5.0"
 
-  sha256 "e51bd9500e6ba2fb05784c97f0056f67fbbd9e15783cb09974f4c19cc29a1137"
+  sha256 "94a1e9f928e59047924b99e93733db704e82d5046fdc02a9a049eec4f2d3a31f"
 
   url "https://github.com/furudean/lltexturecache-viewer-gui/releases/download/v#{version}/lltexturecache-browser-qt-#{version}-macos-arm64.zip"
   name "lltexturecache-browser-qt"
