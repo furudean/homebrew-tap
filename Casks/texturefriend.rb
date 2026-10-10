@@ -1,6 +1,6 @@
 cask "texturefriend" do
-  version "1.0.1"
-  sha256 "052e551f403259e802500c4df7dbd566fce52638f9b428529848ae128129cf24"
+  version "1.1.0"
+  sha256 "29c17dc43223587e69f3cb7e6dc6db9214a6e32e4a931528dcc5737405fbb61c"
 
   url "https://github.com/furudean/texturefriend/releases/download/v#{version}/texturefriend-#{version}-macos-universal.zip"
   name "TextureFriend"
